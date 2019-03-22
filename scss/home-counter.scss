@@ -1,0 +1,30 @@
+.home-counter {
+  background-image: url("/static/Images/counter-bg.jpg");
+  height: 50vh;
+  background-size: cover;
+  color: #fff;
+
+  .counter-container {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    .counter-item {
+      width: 15rem;
+      padding: 1.5rem;
+      h4 {
+        font-size: 4.5rem;
+        border: 0.45rem solid rgba(255, 255, 255, 0.719797);
+        padding: 3.5rem 0rem;
+      }
+      p {
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 2;
+      }
+    }
+  }
+}

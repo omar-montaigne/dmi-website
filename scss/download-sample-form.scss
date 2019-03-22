@@ -1,0 +1,70 @@
+.ds-form-box {
+  background-color: #dfdfdf;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  h2 {
+    color: #ff5800;
+    font-family: bebas neue;
+    font-size: 4rem;
+    margin: 0rem;
+    padding: 3rem 2rem;
+  }
+  .close-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    background-color: #3b3b3b;
+    color: #f4f4f4;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.4rem 0.6rem #ababab;
+  }
+  .ds-form {
+    max-width: 60rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    .normal,
+    .fullwidth,
+    textarea {
+      background-color: #fdfdfd;
+      color: #3b3b3b;
+    }
+    .normal {
+      margin: 2% 2%;
+      border: 0;
+      padding: 2.4% 3%;
+      width: 40%;
+    }
+    .fullwidth {
+      margin: 2% 2%;
+      border: 0;
+      padding: 2.4% 3%;
+      width: 90%;
+    }
+    textarea {
+      height: 10rem;
+      border: none;
+      padding: 2%;
+      margin: 2%;
+    }
+    button {
+      width: 25%;
+      padding: 2.5%;
+      margin: 2%;
+      margin-bottom: 5%;
+      border: 0;
+      background-color: #3b3b3b;
+      color: #f4f4f4;
+      font-size: 1.4rem;
+      border-radius: 0.4rem;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.methodology-box {
+  background-image: url("/static/Images/methodology.jpg");
+  background-size: cover;
+  height: 60vh;
+  min-height: 36rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .methodology-title {
+    height: 100%;
+    position: relative;
+    width: 15%;
+    background-color: #3b3b3b;
+    max-width: 11rem;
+    text-shadow: 0 0 #f3f3f3;
+    h2 {
+      color: #fff;
+      padding: 0.8rem 2rem;
+      font-size: 7rem;
+      width: 60vh;
+      min-width: 36rem;
+      position: absolute;
+      right: 0;
+      font-family: bebas neue, sans-serif;
+      text-align: center;
+      transform-origin: top right;
+      transform: rotate(-90deg) translate(0%, -100%);
+      min-height: 8rem;
+      box-sizing: border-box;
+    }
+    span {
+      right: 0;
+      background-color: #FF6600;
+      width: 1.2rem;
+      height: 2rem;
+      position: absolute;
+      height: 55%;
+      bottom: 0;
+      transform: translateX(0.8rem);
+    }
+  }
+  .methodology-container {
+    width: 100%;
+    .methodology-content {
+      width: 50%;
+      float: right;
+      text-align: left;
+      h3 {
+        font-family: bebas neue;
+        font-size: 5rem;
+        color: #FF6600;
+        margin: 0;
+      }
+      p {
+        olor: #3b3b3b;
+        font-size: 1.8rem;
+        margin: -1rem 0 0.81rem 0;
+      }
+      ul {
+        list-style-type: none;
+        color: #FF6600;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+      }
+      button {
+        color: #f4f4f4;
+        background-color: #3b3b3b;
+        padding: 0.8rem 1.6rem;
+        font-family: bebas neue;
+        border: 0;
+        font-size: 1.85rem;
+      }
+    }
+  }
+}

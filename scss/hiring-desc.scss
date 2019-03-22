@@ -1,0 +1,60 @@
+.hiring-section {
+  background-image: url("/static/Images/hiring-bg.png");
+  background-size: cover;
+  height: 60vh;
+  min-height: 36rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .hiring-container {
+    width: 100%;
+    .hiring-content {
+      width: 75%;
+      margin: 0 auto;
+
+      h3 {
+        font-family: "bebas neue", sans-serif;
+        color: #ec5d13;
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+      }
+      button {
+        color: #f4f4f4;
+        border: 1px solid #ff5600;
+        padding: 0.6rem 1.6rem;
+        font-family: bebas neue;
+        font-size: 1.75rem;
+      }
+      p {
+        color: #f4f4f4;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        max-width: 36rem;
+        text-align: justify;
+      }
+    }
+  }
+  .hiring-title {
+    height: 100%;
+    position: relative;
+    width: 15%;
+    background-color: #ff5700;
+    max-width: 11rem;
+    text-shadow: 0 0 black;
+    h2 {
+      color: #fff;
+      padding: 0.8rem 2rem;
+      font-size: 7rem;
+      width: 60vh;
+      min-width: 36rem;
+      position: absolute;
+      right: 0;
+      font-family: bebas neue, sans-serif;
+      text-align: center;
+      transform-origin: top right;
+      transform: rotate(-90deg) translate(0%, -100%);
+      min-height: 8rem;
+      box-sizing: border-box;
+    }
+  }
+}

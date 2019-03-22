@@ -1,0 +1,217 @@
+.about-dmi-main-box {
+  .with-background-box {
+    background-image: url("/static/Images/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    position: relative;
+    .dmi-quote-box {
+      width: 80%;
+      margin: 2rem auto;
+      text-align: center;
+
+      img {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+      }
+
+      .quote-img {
+        width: 2%;
+      }
+
+      .dmi-log-about-page {
+        width: 8%;
+      }
+
+      h3 {
+        font-size: 2rem;
+        color: #fff;
+      }
+
+      button {
+        background-color: #fa6720;
+        color: #fff;
+        padding: 1.2rem 3rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 2rem #3b3b3b;
+        position: absolute;
+        margin: 0 auto;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+      }
+    }
+  }
+  .dmi-misson-box {
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 7.5%;
+    p {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      font-weight: 100;
+      line-height: 1.5;
+      span {
+        font-size: 5rem;
+        font-family: bebas neue;
+        color: #fa6720;
+        line-height: 0;
+      }
+    }
+  }
+  .we-are-dmi-box {
+    .we-are-dmi-top {
+      display: flex;
+      align-items: flex-start;
+
+      justify-content: flex-start;
+      .we-are-dmi-left {
+        background-color: #fff;
+        color: #3b3b3b;
+        box-sizing: content-box;
+        width: 50%;
+        img {
+          width: 90%;
+          padding: 0% 10%;
+          background-color: #3b3b3b;
+        }
+        p {
+          box-sizing: content-box;
+          padding-top: 1rem;
+          padding-left: 10%;
+          width: 88%;
+          text-align: left;
+          font-size: 1.1rem;
+          line-height: 1.6;
+        }
+      }
+      .we-are-dmi-right {
+        width: 50%;
+        img {
+          box-shadow: 0 0 5rem #000;
+          margin: 0 0 0 5%;
+          width: 95%;
+        }
+      }
+    }
+    .we-are-dmi-bottom {
+      padding: 5% 5% 2.5%;
+      width: 90%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      span {
+        font-size: 12rem;
+        font-family: bebas neue;
+        color: #fa6720;
+      }
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        padding: 2rem 1rem;
+      }
+    }
+  }
+  .we-thrive-to-serve-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("/static/Images/we-thrive-to-serve.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 50vh;
+    .padding-serve {
+      width: 25%;
+      height: 100%;
+      background-color: #fa6720;
+      opacity: 0.6;
+    }
+    .serve-main {
+      width: 75%;
+      color: #fff;
+      padding: 2rem;
+      h2 {
+        color: #fa6720;
+        font-size: 5rem;
+        font-family: bebas neue;
+        letter-spacing: 0.08rem;
+      }
+      p {
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-top: 0.5rem;
+      }
+      button {
+        background-color: #3b3b3bab;
+        color: #fff;
+        font-family: bebas neue;
+        padding: 0.5rem 2rem;
+        margin-top: 2rem;
+        border: 0.2rem solid #fa6720;
+        font-weight: 300;
+        letter-spacing: 0.08rem;
+        font-size: 2rem;
+      }
+    }
+  }
+  .our-forte-box {
+    text-align: center;
+
+    padding: 5%;
+    span {
+      font-family: bebas neue;
+      font-size: 5rem;
+    }
+    .our-forte-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 2.5% 0;
+
+      .slide-back-btn,
+      .slide-next-btn {
+        width: 25%;
+        z-index: 9;
+        position: relative;
+        img {
+          width: 15%;
+        }
+      }
+      .slider-box {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        .our-forte-slider {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          z-index: 1;
+          width: 100%;
+
+          height: 100%;
+
+          p {
+            min-width: 90%;
+            padding: 0 5%;
+            opacity: 0;
+            transition: opacity 0.2 ease-in-out;
+            font-size: 1.1rem;
+          }
+          .active-statement {
+            opacity: 1;
+            transition: opacity 0.2 ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}

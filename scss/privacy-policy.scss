@@ -1,0 +1,39 @@
+/* Fonts and colors used here are for testing only */
+
+// @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
+#privacypolicy {
+  display: flex;
+  justify-content: center;
+}
+
+#privacypolicy .content-container {
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-height: 30rem;
+  width: 70%;
+  h1 {
+    font-size: 5.4rem;;
+    color: #ff6600;
+    font-family: 'bebas neue';
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+  h4 {
+    font-size: 2.4rem;;
+    color: #2E2E2E;
+    font-family: 'Muli', sans-serif;
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  p {
+    font-size: 1.8rem;
+    color: #2E2E2E;
+    font-family: 'Muli', sans-serif;
+    line-height: 140%;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,41 @@
+.about-compass-box {
+  background: url("/static/Images/compass-bg-1.png"),
+    linear-gradient(#0399c1df, #023ed4df);
+  background-size: cover;
+  color: #fff;
+  padding: 1.6rem;
+
+  .about-compass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    border: 0.2rem dashed #fff;
+
+    h3 {
+      font-family: "bebas neue";
+      font-size: 3rem;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    span {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    img {
+      width: 100%;
+      max-width: 30rem;
+    }
+    button {
+      color: #0060f0;
+      background-color: #fff;
+      border-radius: 50%;
+      margin-top: 0.6rem;
+      padding: 0.4rem 0.8rem 0.6rem 0.8rem;
+    }
+  }
+}

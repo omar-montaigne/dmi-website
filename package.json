@@ -1,0 +1,33 @@
+{
+  "name": "dmi",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "description": "DataM Intelligence version 1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "./node_modules/next/dist/bin/next build",
+    "heroku-postbuild": "./node_modules/next/dist/bin/next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "MSBS",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "fuse.js": "^3.4.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "styled-jsx": "^3.2.0"
+  }
+}

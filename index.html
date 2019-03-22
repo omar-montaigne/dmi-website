@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PayPal Node App</title>
+  </head>
+  <body>
+    <h1>Boston Red Sox Hat</h1>
+    <h2>Buy For $25</h2>
+    <form
+      action="https://product-page-api.herokuapp.com/api/payments/pay"
+      method="post"
+    >
+      <p>shippping detals</p>
+      firstname:<br />
+      <input type="text" name="firstName" value="" /><br />
+      lastname:<br />
+      <input type="text" name="lastName" value="" /><br />
+      company_name:<br />
+      <input type="text" name="companyName" value="" /><br />
+      country:<br />
+      <input type="text" name="country" value="" /><br />
+      street_address:<br />
+      <input type="text" name="streetAddress" value="" /><br />
+      city:<br />
+      <input type="text" name="townCity" value="" /> <br />
+      state:<br />
+      <input type="text" name="state" value="" /><br />
+      postel_code:<br />
+      <input type="number" name="postCode" value="" /><br />
+      phone:<br />
+      <input type="number" name="phone" value="" /><br />
+      email_address:<br />
+      <input type="text" name="emailAddress" value="" /><br />
+      order_note:<br />
+      <input type="text" name="orderNote" value="" /><br />
+
+      <p>product details</p>
+      name:<br />
+      <input type="text" name="itemName" value="" /><br />
+      sku:<br />
+      <input type="text" name="sku" value="" /><br />
+      price:<br />
+      <input type="text" name="itemPrice" value="" /><br />
+      quantity:<br />
+      <input type="number" name="quantity" value="" /><br />
+      slug:<br />
+      <input type="text" name="slug" value="" /><br />
+      <input type="submit" value="Buy" />
+    </form>
+  </body>
+</html>
+
+Send a message

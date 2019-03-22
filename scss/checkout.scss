@@ -1,0 +1,205 @@
+// @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
+#checkout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 80px 0px;
+}
+
+#checkout {
+	h1 {
+		color: #ff6600;
+		font-family: 'bebas neue';
+		font-size: 5.4rem;
+		line-height: 65px;
+		letter-spacing: -0.07px;
+		text-align: center;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+}
+
+#checkout {
+	table {
+		width: 90%;
+		border-collapse: collapse;
+		border: 2px solid #ccc;
+		border-radius: 10px;
+
+		.product {
+			display: flex;
+			align-items: flex-end;
+			height: 100px;
+		}
+
+		.product img {
+			height: 100%;
+			padding-right: 10px;
+		}
+
+		.product h4 {
+			font-size: 2rem;
+			padding-left: 10px;
+			text-align: center;
+		}
+
+		thead tr {
+			background: #b6c6c9;
+			color: white;
+			font-size: 2.4rem;
+			text-transform: uppercase;
+
+			th {
+				padding: 20px;
+			}
+		}
+
+		tbody tr {
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			font-size: 1.6rem;
+
+			td {
+				padding: 20px;
+				min-width: 60px;
+				border: 1px solid #ccc;
+				border-radius: 10px;
+				vertical-align: center;
+			}
+		}
+	}
+}
+
+#checkout table tbody {
+	.summary-row {
+		height: 120px;
+	}
+
+	.summary-row td {
+		border: none;
+	}
+
+	.summary-row .summary {
+		text-align: right;
+		font-size: 1.6rem;
+		font-weight: bold;
+
+		p {
+			font-size: 2rem;
+			padding: 10px 0px;
+		}
+
+		p.total {
+			font-size: 2.8rem;
+			color: #ff6600;
+		}
+
+		// display: flex;
+		// height: 100%;
+		// align-content: space-between;
+	}
+}
+
+#checkout .paypal {
+	margin: 40px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 90%;
+	height: 140px;
+
+	label {
+		font-size: 1.4rem;
+		padding-left: 4px;
+	}
+
+	.paypal-box {
+		background: #a3e7f0;
+		color: #3c3950;
+		font-size: 1.6rem;
+		height: 100px;
+		display: flex;
+		align-items: center;
+		padding: 0px 30px;
+		border-radius: 5px;
+	}
+}
+
+#checkout .buttons {
+
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	
+	button {
+		border: 2px solid #343434;
+		border-radius: 5px;
+		padding: 14px 20px;
+		font-weight: bold;
+		box-sizing: border-box;
+		transition: 0.4s all;
+	}
+
+	button.back:hover {
+		background: #343434;
+		color: #fff;
+		transition: 0.4s all;
+	}
+
+	button.proceed {
+		background: #498205;
+		border: 2px solid #A5D6A7;
+		color: #fff;
+	}
+
+	button.proceed:hover {
+		filter: brightness(80%);
+		border: 2px solid transparent;
+		transition: 0.4s all;
+	}
+}
+
+
+/** 
+* !The below styles are for mobile and tablet
+*/
+
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 880px) {
+	#checkout {
+		// max-width: 100%;
+		table {
+			thead tr {
+				font-size: 1.4rem;
+			}
+			.product {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			.product img {
+				height: 60%;
+				padding-right: 0px;
+			}
+			.product h4 {
+				font-size: 1.2rem;
+				padding-top: 4px;
+			}
+			tbody tr {
+				border: 1px solid #ccc;
+				border-radius: 10px;
+				font-size: 1.2rem;
+	
+				td {
+					padding: 10px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+

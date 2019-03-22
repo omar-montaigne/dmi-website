@@ -1,0 +1,101 @@
+.footer-box {
+  text-align: center;
+  background-color: #3b3b3b;
+  color: #fff;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    width: 30%;
+    justify-content: space-evenly;
+  }
+  .section1 {
+    text-align: justify;
+    padding: 1% 2.5%;
+    line-height: 1.5;
+    font-weight: 300;
+    img {
+      width: 30%;
+    }
+  }
+  .section2 {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 1.6;
+      }
+    }
+  }
+  .section3 {
+    h3 {
+      font-size: 1.6rem;
+    }
+    span {
+      font-weight: 500;
+      font-size: 1.2rem;
+      text-decoration: underline;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .section4 {
+    form {
+      input,
+      select,
+      button {
+        display: block;
+        text-align: center;
+        margin: 0.5rem auto;
+        border-radius: 0.2rem;
+      }
+      input {
+        width: 60%;
+        border: none;
+        background-color: #efefef;
+        font-size: 1rem;
+        padding: 0.4rem;
+      }
+      select {
+        width: 62%;
+        height: 2.4rem;
+        background-color: #f4f4f4;
+      }
+      button {
+        width: 35%;
+        margin-top: 1.5rem;
+        color: #f4f4f4;
+        background-color: #FF6600;
+        border: none;
+        padding: 0.6rem 2rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.montaigne {
+  background-color: #FF6600;
+  color: #fff;
+  display: flex;
+  padding: 1rem;
+  p {
+    display: inline-flex;
+    a {
+      text-decoration: none;
+      color: #fff;
+      border-bottom: 0.1rem solid;
+      padding-left: 0.2rem;
+    }
+    &:last-child {
+      float: right;
+    }
+  }
+}

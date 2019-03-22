@@ -1,0 +1,31 @@
+.rd-box {
+  width: 100%;
+  .rd-tab-box {
+    background-color: #3b3b3b;
+
+    button {
+      font-size: 1.4rem;
+      width: 18rem;
+      text-align: center;
+      color: #fff;
+      padding: 1.4rem;
+      float: left;
+      margin: 0;
+      background-color: #3b3b3b;
+      border: 0;
+    }
+    .active {
+      background-color: #08a95e;
+      color: #f4f4f4;
+    }
+  }
+  .rd-content-box {
+    padding: 2rem 4rem;
+    background-color: #f9fafb;
+    font-size: 1.4rem;
+    display: none;
+  }
+  .active-content {
+    display: block !important;
+  }
+}

@@ -1,0 +1,92 @@
+.features-box {
+  background-image: url("/static/Images/about-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  .features-ready {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+
+    .section-left {
+      width: 50%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #2d2d2d;
+      opacity: 0.8;
+      border-bottom: 0.5rem solid #ff5800;
+      flex-wrap: wrap;
+      height: 99.5%;
+      img {
+        width: 10rem;
+      }
+      p {
+        padding: 0.4rem 2rem 2rem 2rem;
+        line-height: 2;
+        color: #fff;
+        width: 70%;
+        font-size: 1.1rem;
+        span {
+          color: orange;
+          font-size: 2rem;
+        }
+      }
+      a{
+        color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: bebas neue;
+    padding: 0.6rem 1.2rem;
+    border: 0.2rem solid #dc5500;
+      }
+    }
+  }
+  .section-right {
+    background-image: url("/static/Images/about-bg-right.png");
+background-color: #fff;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    color: #f4f4f4;
+    // .right-section-top,
+    // .right-section-bottom {
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+
+    .feature-item {
+      width: 50%;
+      text-align: center;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 5%;
+      box-sizing: border-box;
+      h4 {
+        padding: 1rem;
+        font-size: 1.35rem;
+      }
+      p {
+        font-size: 1.1rem;
+        font-weight: 100;
+      }
+    }
+    .feature-dark {
+    background-image: linear-gradient(#3b3b3b, #000);
+      opacity: 1;
+      h4 {
+        color: #ff5800;
+      }
+    }
+    .feature-light {
+      color: #3b3b3b;
+    }
+  }
+}
