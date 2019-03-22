@@ -9,6 +9,7 @@
   .bundle-hidden {
     transition: display, opacity 2s linear;
     -webkit-transition: display, opacity 2s linear;
+    // padding: 10px;
     opacity: 0;
     width: 0;
     height: 0;
@@ -19,12 +20,15 @@
     color: #f4f4f4;
     font-size: 1.2rem;
     font-weight: 400;
-    padding: 0.3rem;
+    padding: 1.3rem;
+    p {
+      margin: 5px 0px;
+    }
     button {
       width: 95%;
       margin: 0.2rem;
       padding: 1.2rem;
-      background-color: #f27b36;
+      background-color: #ff6600;
       color: #fff;
       border: none;
       font-size: 1.3rem;
@@ -34,7 +38,7 @@
   .bundle-display {
     background-color: #3b3b3b;
     color: #f4f4f4;
-    border-top: 0.4rem solid #f27b36;
+    border-top: 0.4rem solid #ff6600;
     padding: 1.4rem;
     p {
       font-size: 1.2rem;
@@ -51,14 +55,17 @@
       }
       input,
       textarea {
+        font-family: inherit;
         width: 80%;
       }
       select {
         width: 90%;
         margin-top: 1.4rem;
         color: #efefef;
-        height: 4rem;
         overflow: hidden;
+      }
+      select:focus {
+        color: #ff6600;
       }
       button {
         width: 50%;
@@ -67,7 +74,7 @@
         padding: 0.6rem 1rem;
         border: none;
         cursor: pointer;
-        background-color: #f27b36;
+        background-color: #ff6600;
         color: #f4f4f4;
       }
     }

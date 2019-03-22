@@ -74,6 +74,9 @@ class ContactPage extends React.Component {
       <div>
         <Head>
           <title>Contact Us Page DMI</title>
+          <meta name="description" content="DMI Contact Page" />
+          <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+          <meta charSet="utf-8" />
         </Head>
         <div className="contact-box">
           <div className="contact-nav">
@@ -178,20 +181,14 @@ class ContactPage extends React.Component {
             </div>
           </div>
           <div className="contact-details">
-            <div style={{ width: "33.33%" }}>
+            <div>
               <h5>CONTACT</h5>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center"
-                }}
-              >
+              <div className="us-flag">
                 <img src="/static/Images/us-flag.png" />
                 <p>+1 877-441-4866</p>
               </div>
             </div>
-            <div style={{ width: "33.33%" }}>
+            <div>
               <h5>wwww.datamintelligence.com</h5>
               <h5>EMAIL</h5>
               <p>
@@ -203,7 +200,7 @@ class ContactPage extends React.Component {
               </p>
               <p>media@datamintelligence.com</p>
             </div>
-            <div style={{ width: "33.33%" }}>
+            <div>
               <h5>CORPORATE ADDRESS</h5>
               <p>
                 1st floor, Phoenix Tech Tower,

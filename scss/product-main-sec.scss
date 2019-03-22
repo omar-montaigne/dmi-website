@@ -71,3 +71,44 @@
   width: 100%;
   display: block;
 }
+
+/** 
+* !The below styles are for mobile and tablet
+*/
+
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 880px) {
+	.product-main-sec-box {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .product-img-box {
+    max-width: 30%;
+  }
+
+  .product-title-box {
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    p.Date-and-Format {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      img {
+        max-width: 30%;
+      }
+    }
+  }
+
+  .product-button-box {
+    max-width: 80%;
+  }
+}

@@ -1,11 +1,30 @@
 .right-box {
-  width: 17%;
-  float: left;
-  padding: 2.5%;
-  padding-left: 0;
+	width: 17%;
+	float: left;
+	padding: 2.5%;
+	padding-left: 0;
 }
 .left-box {
-  width: 75.5%;
-  float: left;
-  padding: 2.5%;
+	width: 75.5%;
+	float: left;
+	padding: 2.5%;
+}
+
+/** 
+* !The below styles are for mobile and tablet
+*/
+
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 880px) {
+	.right-box {
+		width: 100%;
+		padding-left: 2.5%;
+		padding: 10px;
+		box-sizing: border-box
+	}
+	.left-box {
+		width: 100%;
+		overflow: hidden;
+	}
 }

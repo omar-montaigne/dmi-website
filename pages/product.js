@@ -10,8 +10,9 @@ import RDSection from "../components/report-data-sec";
 import BundeReport from "../components/bundle-report";
 import Layout from "../components/layout";
 import Breadcrumb from "../components/breadcrumb";
-import "../scss/product-page.scss";
 import cart from "./cart";
+
+import "../scss/product-page.scss";
 
 class ProductPageTemplate extends Component {
   state = {
@@ -175,6 +176,8 @@ class ProductPageTemplate extends Component {
           <title>{this.props.data.Meta_title}</title>
           <meta name="description" content={this.props.data.Meta_Desc} />
           <meta name="keywords" content={this.props.data.keywordArea.keyword} />
+          <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+          <meta charSet="utf-8" />
         </Head>
         <div
           style={{

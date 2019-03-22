@@ -73,65 +73,70 @@ class FooterSection extends Component {
                   </p>
                 </div>
                 <div className="section2">
-                  <ul>
-                    <li>
-                      <Link href="/">
-                        <a>Home</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Our Methodology</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Industry Verticals</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Careers</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Contact Us</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>About Us</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Terms & Conditions</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/">
-                        <a>Privacy Policy</a>
-                      </Link>
-                    </li>
-                  </ul>
+                  <div>
+                    <h3>Pages</h3>
+                    <ul>
+                      <li>
+                        <Link href="/">
+                          <a>Home</a>
+                        </Link>
+                      </li>
+                      {/* <li>
+                        <Link href="/">
+                          <a>Our Methodology</a>
+                        </Link>
+                      </li> */}
+                      <li>
+                        <Link href={`/mainCategory?main=industry-verticals`} as={`/category/industry-verticals`}>
+                          <a>Industry Verticals</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/join-us">
+                          <a>Careers</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/contact">
+                          <a>Contact Us</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/about">
+                          <a>About Us</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/terms-conditions">
+                          <a>Terms & Conditions</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/privacy-policy">
+                          <a>Privacy Policy</a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="section3">
-                  <h3> Contact </h3>
-                  <p>
-                    <span>Corporate Address</span> <br />
-                    1st floor, Phoenix Tech Tower, Plo no: 14/46, Habsidguda,
-                    IDA-Uppal, Hyderabad-500039, Telangana
-                  </p>
-                  <p>
-                    <span>Email</span>
-                    <br /> info@datamintelligence.com
-                  </p>
-                  <p>
-                    <span>Phone </span>
-                    <br />
-                    +1 877-441-4866
-                  </p>
+                  <div>
+                    <h3> Contact </h3>
+                    <p>
+                      <span>Corporate Address</span> <br />
+                      1st floor, Phoenix Tech Tower, Plo no: 14/46, Habsidguda,
+                      IDA-Uppal, Hyderabad-500039, Telangana
+                    </p>
+                    <p>
+                      <span>Email</span>
+                      <br /> info@datamintelligence.com
+                    </p>
+                    <p>
+                      <span>Phone </span>
+                      <br />
+                      +1 877-441-4866
+                    </p>
+                  </div>
                 </div>
                 <div className="section4">
                   <form onSubmit={this.handleSubmit}>

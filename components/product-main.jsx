@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import DownloadSample from "./download-sample";
+
 import "../scss/product-main-sec.scss";
 
 // let countProps = this.props.SKU.count;
@@ -58,7 +59,7 @@ class ProductTitleSection extends Component {
           </div>
           <div className="product-title-box">
             <p className="Date-and-Format">
-              SKU: D{this.props.SKU.category}{this.state.precountValue}{this.props.SKU.count} | Published On: {this.props.PublishedDate} | Available Formats{" "}
+              SKU: D{this.props.SKU.category}{this.state.precountValue}{this.props.SKU.count} | Published On: {this.props.PublishedDate} | Available Formats:{" "}
               <img src="/static/Images/available-formats.png" />{" "}
             </p>
             <h1>{this.props.Title}</h1>

@@ -66,7 +66,13 @@ class BundeReport extends Component {
         >
           <p>Let Us Help You</p>
           <form className="bundle-form" onSubmit={this.handleSubmit}>
-            <input name="name" required placeholder="name" value={this.state.formData.name} onChange={this.handleChangeInput} />
+            <input
+              required
+              name="name"
+              placeholder="Name"
+              value={this.state.formData.name}
+              onChange={this.handleChangeInput}
+            />
             <input
               required
               placeholder="email"
